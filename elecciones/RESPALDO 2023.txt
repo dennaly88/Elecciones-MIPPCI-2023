@@ -1,0 +1,152 @@
+#toilet -f mono9 -F metal Danny 
+#toilet -f future -F metal Danny
+#toilet -f emboss -F metal Danny
+#toilet -f pagga -F gay Danny 
+#toilet -f smblock -F Danny 
+#toilet -f bigascii9 -F metal Danny 
+#toilet -f ascii12 -F metal Danny
+#toilet -f mono9 -F metal Danny
+#toilet -f future -F metal 
+#toilet -f emboss -F metal VTV
+#toilet -f pagga -F metal SERVIDOR 1
+#toilet -f smblock -F metal VTV
+#toilet -f bigascii9 -F metal VTV
+#toilet -f ascii12 -F metal VTV
+#toilet -f ascii9 -F metal VTV
+#toilet -f ascii12 -F metal VTV
+#toilet -f bigascii9 -F metal VTV
+#toilet -f bigascii12 -F metal VTV
+#toilet -f bigmono9 -F metal VTV
+#toilet -f bigmono12 -F metal VTV
+#toilet -f circle -F metal VTV
+#toilet -f emboss -F metal VTV
+#toilet -f emboss -F metal VTV
+#toilet -f emboss2 -F metal VTV
+#toilet -f future -F metal VTV
+#toilet -f letter -F metal VTV
+#toilet -f mono9 -F metal VTV
+#toilet -f mono12 -F metal VTV
+#toilet -f pagga -F metal VTV
+#toilet -f smascii9 -F metal VTV
+#toilet -f smacii12 -F metal VTV
+#toilet -f smblock -F metal VTV
+#toilet -f smbraille -F metal VTV
+#toilet -f smmono9 -F metal VTV
+#toilet -f smmono12 -F metal VTV
+#toilet -f wideterm -F metal  VENEZOLANA DE TELEVISION C.A 
+#toilet -f future SERVICIO MEDICO  --filter border
+#toilet -f wideterm -F metal CANAL 8
+
+
+
+
+###############################################################################>
+##################  CONFIGURACION DEL TERMINAL     ############################>
+###############################################################################>
+
+#toilet "MAQUILLAJE Y VESTUARIO" -f future --filter gay
+# Mod Terminal
+#toilet "S.I.G.A.I" -f future --filter metal 
+#fortune | cowsay -f eyes | toilet --metal -f term
+#cowsay -f  eyes |  "DANNY JIMENEZ DESARROLLADOR WEB" 
+
+
+cowsay -f eyes │ "DANNY JIMENEZ DESARROLLADOR WEB" | toilet --metal -f term
+echo
+toilet -f future Danny Jimenez --filter gay
+
+
+###############################################################################>
+
+
+
+
+#############################################################################################################################################################>
+##################  CONFIGURACION DEL TERMINAL     ##########################################################################################################>
+#############################################################################################################################################################>
+#############################################################################################################################################################>
+##################  CONFIGURACION DEL TERMINAL     ##########################################################################################################>
+#############################################################################################################################################################>
+
+#toilet "MAQUILLAJE Y VESTUARIO" -f future --filter gay
+# Mod Terminal
+#toilet "S.I.G.A.I" -f future --filter metal 
+#fortune | cowsay -f eyes | toilet --metal -f term
+cowsay -f  eyes   "DANNY JIMENEZ DESARROLLADOR WEB" 
+# cowsay -f eyes │ lolcat
+echo
+toilet -f future Danny Jimenez --filter gay
+
+
+#############################################################################################################################################################>
+
+
+
+#############################################################################################################################################################>
+#################################  UNIDADES COMPARTIDAS   ###################################################################################################>
+#############################################################################################################################################################>
+alias  montar-INTRANET-VIEJA='sshfs -o umask=007 usuariogit@172.16.12.188:// /home/danny/Unidades/INTRANET-VIEJA'
+alias  montar-INTRANET-NUEVA='sshfs -o umask=007 desarrollo@192.168.6.95:// /home/danny/Unidades/INTRANET-NUEVA'
+alias  montar-SERVIDOR-DESARROLLO='sshfs -o umask=007 desarrollo@192.168.5.120:// /home/danny/Unidades/SERVIDOR-DESARROLLO'
+alias  montar-DIRECTORIO='sshfs -o umask=007 desarrollo@192.168.5.121:// /home/danny/Unidades/DIRECTORIO'
+alias  montar-SERVICIO-MEDICO='sshfs -o umask=007 desarrollo@192.168.5.122:// /home/danny/Unidades/SERVICIO-MEDICO'
+alias  montar-GOBIERNO-BOLIVARIANO='sshfs -o umask=007 desarrollo@192.168.5.123:// /home/danny/Unidades/GOBIERNO-BOLIVARIANO'
+alias  montar-FESTIVAL-POESIA='sshfs -o umask=007 desarrollo@192.168.5.124:// /home/danny/Unidades/FESTIVAL-POESIA'
+alias  montar-MAQUILLAJE-VESTUARIO='sshfs -o umask=007 desarrollo@192.168.6.97:// /home/danny/Unidades/MAQUILLAJE-VESTUARIO'
+alias  montar-S.I.G.A.I='sshfs -o umask=007 desarrollo@192.168.6.25:// /home/danny/Unidades/S.I.G.A.I'
+alias  montar-SERVI-RED-VIEJO='sshfs -o umask=007 desarrollo@192.168.6.27:// /home/danny/Unidades/SERVI-RED-VIEJO'
+alias  montar-WIFI='sshfs -p 7987 desarrollo@192.168.6.10:// /home/danny/Unidades/WIFI'
+alias  montar-LOGISTICA='sshfs -p 7987 desarrollo@192.168.6.22:// /home/danny/Unidades/LOGISTICA'
+alias  montar-DESARROLLO-1='sshfs -o umask=007 desarrollo@172.16.15.12:// /home/danny/Unidades/DESARROLLO-1'
+alias  montar-DESARROLLO-2='sshfs -o umask=007 desarrollo@192.168.6.23:// /home/danny/Unidades/DESARROLLO-2'
+alias  montar-SIGESP='sshfs -o umask=007 sigesp-admin@172.16.13.156:/var/www/ /home/danny/Unidades/SIGESP/'
+alias  montar-ENYERWELL='sshfs -o umask=007 ecalzadilla@192.168.21.216:/var/www/ /home/danny/Unidades/ENYERWELL/'
+alias  montar-SERVI-RED='sshfs -o umask=007 servi-red@192.168.7.238:// /home/danny/Unidades/SERVI-RED/' 
+#############################################################################################################################################################>
+#############################################################################################################################################################>
+#############################################################################################################################################################>
+
+
+
+#################################################################################################################################
+
+USUARIO DE DOMINIO 
+
+
+Usuario    djjimenez	
+
+Contraseña Caracas1818*
+
+__###################################################################################################################__________________________
+
+
+
+wp-custom-admin-interface
+
+ALL-in-One WP Migration 
+
+WP Orlogin 
+
+White Label CMS
+
+
+
+Change wp-admin login 
+WPS Hide Login
+
+  
+  Iniciar Apache:
+
+/etc/init.d/apache2 start
+
+Reiniciar Apache:
+
+/etc/init.d/apache2 restart
+
+Parar Apache:
+
+/etc/init.d/apache2 stop
+  
+
+
+

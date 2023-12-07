@@ -1,0 +1,128 @@
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+CODIGOS PARA ACTUALIZAR 
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+sudo apt update && sudo apt upgrade
+sudo apt update
+sudo apt upgrade
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+DEPENDENCIAS IMCUMPLIDAS
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+sudo apt-get autoremove
+sudo apt-get autoclean
+sudo apt-get update
+sudo apt-get -f install
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+VER VERSION DE LINUX 
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+lsb_release -a
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+INSTALAR ARCHIVOS .deb 
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+sudo apt install ./ganttproject_3.2.3240-1_all.deb
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+INSTALAR ARCHIVOS .tar.gz 
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+lsb_release -a
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+RUTA DE REPOSITORES
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+
+sudo nano  /etc/apt/sources.list 
+
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+APACHE
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+
+/etc/init.d/apache2 start
+service apache2 start
+
+/etc/init.d/apache2 restart
+service apache2 restart
+
+/etc/init.d/apache2 stop
+service apache2 stop
+
+/etc/init.d/apache2 status
+service apache2 status
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+MYSQL
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+
+/etc/init.d/mysqld start
+service mysql start
+ 
+
+/etc/init.d/mysqld stop
+service mysql stop
+ 
+
+/etc/init.d/mysqld restart
+service mysql restart
+
+/etc/init.d/mysqld status
+service mysql status
+
+
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+POSTGRESQL
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+
+sudo service postgresql start
+
+
+sudo service postgresql stop
+ 
+
+sudo service postgresql restart
+
+sudo service postgresql status
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+CREAR CARPETA  
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+mkdir -m 777 /home/danny/nombre de la carpeta/
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+ELIMINAR CARPETA  
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+rm -r nombre de la carpeta
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+PERMISO DE CARPETAS 
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+  
+
+sudo chmod 777 -R nombre de la carpeta 
+
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&6
+COPIAR ARCHIVO 
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+
+scp -r nombre de la carpeta    usuario@ip : carpeta destino la ruta 
+
+
+scp -r Sidi danny8@192.168.7.140:/var/www/known_hosts
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+

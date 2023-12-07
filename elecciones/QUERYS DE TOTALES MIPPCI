@@ -1,0 +1,83 @@
+ <?php
+                        include('sql/conexion.php');
+                         
+                        $sql = "SELECT COUNT(*) total FROM nomina";
+                        $result = mysqli_query($conexion, $sql);
+                        $nomina = mysqli_fetch_assoc($result);
+
+                    ?>
+
+                <?php
+                        include('sql/conexion.php');
+                        
+                        $sql = "SELECT COUNT(*) total FROM nomina where voto='SI' ";
+                        $result = mysqli_query($conexion, $sql);
+                        $sivotaron = mysqli_fetch_assoc($result);
+
+                    ?>
+
+
+<?php
+                        include('sql/conexion.php');
+                        
+                        $sql = "SELECT COUNT(*) total FROM nomina where voto='NO' ";
+                        $result = mysqli_query($conexion, $sql);
+                        $novotaron = mysqli_fetch_assoc($result);
+
+                    ?>
+                    
+                    
+                    
+                    <?php
+                        include('conexion.php');
+                        $sql = "SELECT COUNT(*) total FROM nomina where gerencia='TECNOLOGIA DE LA INFORMACION Y COMUNICACION'";
+                        $result = mysqli_query($conexion, $sql);
+                        $gerencia = mysqli_fetch_assoc($result);
+
+              ?>
+
+
+
+             <?php
+                        include('conexion.php');
+                        $sql = "SELECT COUNT(*) total FROM nomina where gerencia='TECNOLOGIA DE LA INFORMACION Y COMUNICACION' and voto='NO' ";
+                        $result = mysqli_query($conexion, $sql);
+                        $novotaron = mysqli_fetch_assoc($result);
+
+              ?>
+
+
+
+
+
+<?php
+                        include('conexion.php');
+                        $sql = "SELECT COUNT(*) total FROM nomina where gerencia='TECNOLOGIA DE LA INFORMACION Y COMUNICACION' and voto='SI' ";
+                        $result = mysqli_query($conexion, $sql);
+                        $sivotaron = mysqli_fetch_assoc($result);
+
+              ?>
+              
+////////////////////////////////////////////////////////////////////////////////////////////
+
+<?php
+                        include('conexion.php');
+                        $sql = "SELECT COUNT(*) total FROM nomina where gerencia='TECNOLOGIA DE LA INFORMACION Y COMUNICACION' and voto='NO' ";
+                        $result = mysqli_query($conexion, $sql);
+                        $novotaron = mysqli_fetch_assoc($result);
+
+              ?>
+
+
+
+
+
+<?php
+                        include('conexion.php');
+                        $sql = "SELECT COUNT(*) total FROM nomina where gerencia='TECNOLOGIA DE LA INFORMACION Y COMUNICACION' and voto='SI' ";
+                        $result = mysqli_query($conexion, $sql);
+                        $sivotaron = mysqli_fetch_assoc($result);
+
+              ?>
+              
+              

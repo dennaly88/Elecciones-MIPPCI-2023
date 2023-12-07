@@ -1,0 +1,50 @@
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+CREDENCIALES DE CONTENEDOR 
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+10.0.0.75 
+Login: sistemas
+Contraseña: s1st3m4s
+
+ssh sistemas@10.0.0.75
+
+elecciones.miooci.gob.ve
+
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+CREDENCIALES  MAQUINA 
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+USUARIO sistemas
+
+CONTRASEÑA s1st3m4s
+
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+Usuarios de administración del manejador de base de datos sistema votos mippci:
+
+Ip servidor: 10.0.0.75 
+Usuario ssh: sistemas
+Clave ssh: s1st3m4s
+
+dominio: http://elecciones.mippci.gob.ve
+
+Usuario bd mysql: desarrollo
+Clave: d3s4rr0ll0
+
+Usuario bd mysql: djimenez
+Clave: dj1m3n3z
+
+Usuario bd mysql: jbeltran
+Clave: jb3ltr4n
+
+
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+

@@ -1,0 +1,36 @@
+ 
+
+ SE VA A LA RUTA DE 
+
+
+ cd /
+ cd etc
+ cd apache
+ cd sites-available
+
+EDITAMOS EL ARCHIVO
+
+ nano 000-default.conf
+
+
+CAMBIAMOS LA RUTA 
+
+ DocumentRoot /var/www/
+
+
+ GUARDAMOS  Y RESETEAMOS APACHE 
+
+ /etc/init.d/apache2 start
+service apache2 start
+
+/etc/init.d/apache2 restart
+service apache2 restart
+
+/etc/init.d/apache2 stop
+service apache2 stop
+
+/etc/init.d/apache2 status
+service apache2 status
+
+
+ 

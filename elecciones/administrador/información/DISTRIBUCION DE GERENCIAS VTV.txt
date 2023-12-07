@@ -1,0 +1,41 @@
+DISTRIBUCION DE GERENCIAS VTV 
+
+_________________________________________________________________________________________________
+
+OFICINA DE ATENCION CIUDADANA                =  10 
+PRESIDENCIA                                  =  107 
+RELACIONES PUBLICAS                          =  0   
+CONSULTORIA JURIDICA                         =  8  
+UNIDAD DE AUDITORIA INTERNA                  =  13   
+JUNTA DIRECTIVA                              =  0   
+INGENIERIA                                   =  90   
+VICEPRESIDENCIA DE SOPORTE TECNOLOGICO       =  23    
+SERVICIOS A LA PRODUCCION                    =  219  
+GESTION HUMANA                               =  606 
+COMERCIALIZACION Y VENTAS                    =  8     
+VICEPRESIDENCIA EJECUTIVA                    =  3     
+PLANIFICACION Y PRESUPUESTO                  =  18 
+ASUNTOS PUBLICOS                             =  21    
+SERVICIOS INFORMATIVOS                       =  337 
+VICEPRESIDENCIA DE INFORMACION               =  9  
+PROGRAMACION                                 =  27  
+VICEPRESIDENCIA EJECUTIVA DE PRODUCCION      =  13  
+PROGRAMAS                                    =  142   
+MULTIMEDIOS                                  =  63    
+ARCHIVO AUDIOVISUAL                          =  38   
+CONTRATACIONES PUBLICAS                      =  16     
+ADMINISTRACION Y FINANZAS                    =  28 
+INFRAESTRUCTURA Y SERVICIOS GENERALES        =  156 
+SEGURIDAD INTEGRAL                           =  78  
+TECNOLOGIA DE LA INFORMACION Y COMUNICACION  =  51  
+IMAGEN                                       =  84  
+
+___________________________________________________________________________________________
+
+TOTAL = 2168  
+
+
+
+
+
+SELECT * FROM `nomina` WHERE gerencia = 'IMAGEN'
